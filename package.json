@@ -1,0 +1,37 @@
+{
+  "name": "lg-crud-package",
+  "version": "0.0.12",
+  "description": "A CRUD npm package for LocationGuru",
+  "main": "./dist/index.js",
+  "typings": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "ngc": "ngc",
+    "build": "rm -rf dist && npm run ngc",
+    "publishPackage": "npm run build && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mayurmate149/LG_Crud_Package.git"
+  },
+  "keywords": [],
+  "author": "Rohit Tidke",
+  "license": "MIT",
+  "devDependencies": {
+    "@angular/common": "5.0.3",
+    "@angular/compiler": "5.0.3",
+    "@angular/compiler-cli": "5.0.3",
+    "@angular/core": "5.0.3",
+    "@angular/forms": "^5.2.7",
+    "@angular/http": "5.2.9",
+    "@angular/platform-browser": "5.0.3",
+    "@angular/platform-browser-dynamic": "5.0.3",
+    "@types/node": "^9.4.6",
+    "ionic-angular": "3.9.2",
+    "typescript": "2.4.2",
+    "lodash": "^4.17.5",
+    "rxjs": "5.5.8"
+  }
+}
